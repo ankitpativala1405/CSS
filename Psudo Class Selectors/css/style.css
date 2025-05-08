@@ -1,4 +1,46 @@
-
-h1:nth-child(8){
+/* h1:nth-child(8){
     background-color: aquamarine;
+} */
+header>h1:last-child {
+    background-color: lightgreen;
+}
+
+header>h1:nth-child(8) {
+    background-color: yellow;
+}
+header>div>h1:nth-of-type(2){
+    background-color: aqua;
+}
+
+header>h1:nth-child(11) {
+    background-color: green;
+}
+
+div>section>div>h1:nth-of-type(2) {
+    background-color: lightcoral;
+}
+
+header>p:nth-of-type(3) {
+    background-color: blue;
+}
+
+header>section>div>h1:nth-of-type(5) {
+    background-color: lightblue;
+}
+
+header>h1:nth-child(17) {
+    background-color: yellow;
+}
+
+header>p:nth-child(20) {
+    background-color: grey;
+}
+span h1:nth-of-type(2){
+    background-color: bisque;
+}
+header>div>section>div>h1:nth-of-type(1) {
+    background-color: lightblue;
+}
+div+h1{
+    background-color: cadetblue;
 }

@@ -1,0 +1,83 @@
+.profile-card {
+    align-items: center;
+    max-width: 60%;
+    border-radius: 15px;
+    outline: 2px solid #db4444;
+    outline-offset: 8px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    /* margin: 20px; */
+    margin: auto;
+    margin-top: 30px;
+}
+
+.profile-card h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+.profile-card p {
+    font-size: 14px;
+}
+
+.profile-card button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #db4444;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+/* task 1 */
+
+.quote-box {
+    border-left: 12px solid #555;
+    font-style: italic;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+    outline: 1px dashed #aaa;
+    outline-offset: 10px;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+/* .quote-box p{
+    padding: 10px;
+} */
+
+/* task 2 */
+.title {
+    max-width: 80%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 48px;
+  text-align: center;
+  border: 3px solid #000;
+  outline: 2px dashed #888;
+  outline-offset: 6px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+
+/* task 3 */
+.info-card {
+  border-radius: 10px;
+  border: 2px dashed blue;
+  outline: 2px solid orange;
+  outline-offset: 6px;
+  text-align: justify;
+  font-weight: 600;
+  font-variant:small-caps;
+  padding: 15px;
+  margin: auto;
+  margin-top: 30px;
+}

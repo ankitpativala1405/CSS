@@ -1,0 +1,130 @@
+  /* task 1 */
+  /* .solid-bg {
+      background-color: #3498db;
+      color: white;
+      padding: 20px;
+  } */
+
+  /* task 2 */
+  /* body {
+      background-image: url("https://images.unsplash.com/photo-1746730251085-34132b6dcec5?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+  } */
+
+  /* task 3 */
+  /* .multi-bg {
+    width: 500px;
+    height: 500px;
+    background-image: url('https://images.unsplash.com/photo-1746950862738-399b20e6f0eb?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'),
+     url('https://images.unsplash.com/photo-1746876269545-c23ecff55722?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+  } */
+
+  /* task 4 */
+  /* .repeat-bg {
+    background-image: url('https://images.unsplash.com/photo-1746950862738-399b20e6f0eb?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: repeat;
+    width: 500px;
+    height: 500px;
+  }
+
+  .norepeat-bg {
+    background-image: url('https://images.unsplash.com/photo-1746876269545-c23ecff55722?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+  } */
+
+  /* task 5 */
+
+  /* .bg-top-left {
+      background: url('./images/dario-jud-AQg-g3ztQME-unsplash.jpg') no-repeat top left;
+      height: 350px;
+  }
+
+  .bg-center {
+      background: url('./images/karsten-winegeart-2zvWgdH5PBU-unsplash.jpg') no-repeat center center;
+      height: 350px;
+  }
+
+  .bg-bottom-right {
+      background: url('./images/marek-piwnicki-OtQbFMOZlhc-unsplash.jpg') no-repeat bottom right;
+      height: 350px;
+  } */
+
+  /* task 6 */
+
+  /* .scroll-bg,
+  .fixed-bg,
+  .local-bg {
+      background-image: url('./images/omid-armin-JGqankmeyAs-unsplash.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 200px;
+      margin-bottom: 20px;
+      overflow: auto;
+      padding: 20px;
+      color: white;
+  }
+
+  .scroll-bg {
+      background-attachment: scroll;
+  }
+
+  .fixed-bg {
+      background-attachment: fixed;
+  }
+
+  .local-bg {
+      background-attachment: local;
+      height: 200px;
+      overflow: auto;
+  } */
+
+  /* task 8 */
+
+  /* .responsive-bg {
+      height: 100vh;
+      background-image: url('./images/marek-piwnicki-OtQbFMOZlhc-unsplash.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  } */
+
+  /* task 9 */
+
+  /* .hover-effect {
+      height: 300px;
+      background-image: url('./images/dario-jud-AQg-g3ztQME-unsplash.jpg');
+      background-size: cover;
+      background-position: center;
+      transition: background 0.5s ease;
+  } */
+
+  /* .hover-effect:hover {
+      background-image: url('./images/karsten-winegeart-2zvWgdH5PBU-unsplash.jpg'); */
+      /* background-color: #ff7f7f;
+      background-image: none; */
+  /* } */
+
+  /* task 10 */
+
+  .watermark-bg {
+      height: 300px;
+      background-image: url('./images/marek-piwnicki-OtQbFMOZlhc-unsplash.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 600px 600px;
+      opacity: 1;
+      position: relative;
+  }
+
+  .watermark-bg::before {
+      content: '';
+      background-image: url('./images/omid-armin-JGqankmeyAs-unsplash.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 600px 600px;
+
+      pointer-events: none;
+  }

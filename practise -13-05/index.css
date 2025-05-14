@@ -104,3 +104,47 @@ footer {
     padding: 15px;
     text-align: center;
 } */
+
+/* task 9 */
+
+/* .form-container {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    input[type="text"] {
+      min-width: 250px;
+      padding: 8px;
+    }
+
+    button {
+      padding: 8px 12px;
+      margin-left: 10px;
+    } */
+
+/* task 10 */
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.left-column {
+    float: left;
+    width: 40%;
+    background-color: #f0f8ff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.right-column {
+    float: right;
+    width: 50%;
+    background-color: #ffe4e1;
+    padding: 10px;
+    box-sizing: border-box;
+}

@@ -1,10 +1,11 @@
-*{
+* {
 
 
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 body {
     display: flex;
     justify-content: center;
@@ -96,8 +97,15 @@ body {
     background-color: black;
 }
 
-.box p{
+.box p {
     font-size: 95px;
     margin-top: -20px;
     color: green;
+}
+
+.box .red {
+    font-size: 95px;
+    margin-top: -20px;
+    color: red;
+
 }

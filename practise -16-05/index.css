@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#maindiv {
+    height: 100vh;
+    width: 70%;
+    background-color: #E2DDDD;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    text-align: center;
+    position: relative;
+}
+
+.childdiv-9 {
+    position: absolute;
+    background-color: aquamarine;
+    top: 0;
+    right: 0;
+}
+
+.childdiv-8 {
+    position: absolute;
+    background-color: bisque;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.childdiv-7 {
+    position: absolute;
+    background-color: yellow;
+    right: 0;
+    bottom: 0;
+}
+
+.childdiv-6 {
+    position: absolute;
+    background-color: blueviolet;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.childdiv-5 {
+    position: absolute;
+    background-color: blue;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.childdiv-4 {
+    position: absolute;
+    background-color: cadetblue;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.childdiv-1 {
+    position: absolute;
+    background-color: brown;
+    left: 0;
+    bottom: 0;
+}
+
+.childdiv-3 {
+    position: absolute;
+    background-color: darkblue;
+    top: 0;
+    left: 0;
+}
+
+.childdiv-2 {
+    position: absolute;
+    background-color: chocolate;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.decendent {
+    position: absolute;
+    height: 85px;
+    width: 85px;
+    border: 2px solid black;
+}
+
+.Decendent-Child-3 {
+    background-color: aliceblue;
+    top: 0;
+    left: 0;
+}
+
+.Decendent-Child-1 {
+    background-color: blueviolet;
+    bottom: 0;
+    left: 0;
+}
+
+.Decendent-Child-2 {
+    background-color: chartreuse;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.Decendent-Child-4 {
+    background-color: beige;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.Decendent-Child-5 {
+    background-color: grey;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.Decendent-Child-6 {
+    background-color: sandybrown;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.Decendent-Child-9 {
+    background-color: lightgray;
+    top: 0;
+    right: 0;
+}
+
+.Decendent-Child-8 {
+    background-color: lightpink;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.Decendent-Child-7{
+    background-color: darksalmon;
+    right: 0;
+    bottom: 0;
+}

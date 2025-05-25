@@ -1,8 +1,4 @@
-/* Sandbox start */
-/* Header start */
-
-/* common css */
-
+/* Universal properties */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 * {
@@ -17,19 +13,107 @@ ul {
     list-style-type: none;
 }
 
+li {
+    padding: 24px 20px;
+}
+
 a {
     text-decoration: none;
+    color: #343f52;
+    font-weight: 700;
+    font-size: 17px;
 }
 
-.container {
-    max-width: 1556px;
-    margin: auto;
-    padding-inline: 20px;
-    height: 100vh;
-}
-
+/* common properties */
 .flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: nowrap;
+}
+
+/* navbar properties */
+
+.header-bg {
+    background-color: #fff8ee;
+    height: 84px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: start;
+    flex-wrap: nowrap;
+    width: 297px;
+}
+
+.nav-logo img {
+    width: 134px;;
+    height: 26px;
+}
+
+.nav-link {
+    display: flex;
+}
+
+.nav-link ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link a {
+    white-space: nowrap;
+}
+
+.nav-link a i {
+    width: 17px;
+    height: 28.89px;
+    margin: 0px -5px 0px 1px;
+    color: #FAB758;
+    font-size: .85rem;
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 297px;
+    gap: 18px;
+}
+
+.nav-btn a {
+    display: flex;
+    align-items: center;
+}
+.nav-btn a i {
+    color: #3f78e0;
+    font-size: .85rem;
+}
+
+.nav-btn a img {
+    width: 22px;
+    height: 22px;
+}
+
+.nav-link li a:hover {
+    color: #FAB758;
+}
+
+.mobile-btn {
+    display: none;
+    color: #343F52;
 }

@@ -3,51 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SandBox</title>
+    <title>Sandbox Landing</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="/CSS/style.css" />
-    <link rel="stylesheet" href="/CSS/responsive.css">
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-
   <body>
-    <header>
-      <div class="header-bg">
-        <div class="container">
-          <!-- navbar start -->
-          <div class="navbar flex-container">
-            <div class="nav-logo">
-              <a href="">
-                <img src="./asset/images/asset 0.png" alt="" />
-              </a>
-            </div>
-            <nav class="nav-link">
-              <ul class="flex-container">
-                <li><a href="">Demos <i class="fa-solid fa-angle-down"></i></a></li>
-                <li><a href="">Pages <i class="fa-solid fa-angle-down"></i></a></li>
-                <li><a href="">Projects <i class="fa-solid fa-angle-down"></i></a></li>
-                <li><a href="">Blog <i class="fa-solid fa-angle-down"></i></a></li>
-                <li><a href="">Blocks <i class="fa-solid fa-angle-down"></i></a></li>
-                <li><a href="">Documentation <i class="fa-solid fa-angle-down"></i></a>
-                </li>
-              </ul>
-            </nav>
-            <div class="nav-btn">
-              <a href="">EN <i class="fa-solid fa-angle-down"></i></a>
-              <a href=""><img src="https://css-livid.vercel.app/Sand%20Box%20Website/assets/Icone/error.png" alt=""/></a>
-               <div class="mobile-btn">
-                  <span>
-                    <i class="fa-solid fa-bars"></i>
-                  </span>
-               </div>
-            </div>
-          </div>
-        </div>
+    <header class="navbar">
+      <div class="container navbar-inner">
+        <div class="logo"><img src="./asset/images/asset 0.png" alt="" /></div>
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <a href="#">Demos <i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li>
+              <a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li>
+              <a href="#">Projects <i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li>
+              <a href="#">Blog <i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li>
+              <a href="#">Blocks <i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li>
+              <a href="#"
+                >Documentation <i class="fa-solid fa-angle-down"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+        <div class="language">EN <i class="fa-solid fa-circle-info"></i></div>
+        <button class="mobile-btn">&#9776;</button>
       </div>
     </header>
+
+    <section class="headerimage">
+      <div class="container headerimage-content">
+        <div class="headerimage-left">
+          <img src="./asset/images/asset 52.png" alt="Rocket Illustration" class="rocket-img"/>
+        </div>
+        <div class="headerimage-right">
+          <h1>Grow Your Business<br />with Our Solutions.</h1>
+          <p>
+            We help our clients to increase their website traffic, rankings and
+            visibility in search results.
+          </p>
+          <a href="#" class="cta-button">Try It For Free</a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

@@ -36,6 +36,7 @@ xl  >=1199px
 
   .mobile-btn {
     display: block;
+    margin-top: -6px;
   }
 
   .navbar-inner {

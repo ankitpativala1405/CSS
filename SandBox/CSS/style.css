@@ -307,9 +307,15 @@ p {
   position: absolute;
   z-index: -1;
   right: -50px;
-  bottom: -50px;
+  bottom: -10px;
   background: #747ed1;
   opacity: 0.3;
 }
 
-/*  */
+/* Analyze section */
+.image-text-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin:50px 0;
+}

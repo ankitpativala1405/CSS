@@ -460,3 +460,24 @@ p {
 }
 
 /* choose section */
+
+.ChooseSectionmain{
+  display: flex;
+  justify-content: center;
+  width: 1360px;
+  margin: 50px auto;
+  align-items: center;
+}
+
+/* team section */
+.TeamHeading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TeamHeading .sandbox_h3{
+  width: 630px;
+  font-size: 1.9rem
+}

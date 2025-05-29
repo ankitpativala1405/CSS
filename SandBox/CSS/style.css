@@ -373,111 +373,264 @@ p {
 
 /* Strategy section */
 
-
-.column {
-  flex: 1 1 45%;
-  min-width: 300px;
+.strategy-section {
+  padding: 100px 0px;
+  /* display: flex;
+    justify-content: space-between;
+    align-items: flex-start; */
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
-.Strategys {
-  margin-top: 50px;
+.strategy-sec {
   display: flex;
   justify-content: space-between;
-  width: 1360px;
-}
-
-.Strategy {
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 0.25rem 1.75rem rgba(30, 34, 40, 0.07);
-  margin-bottom: 1.5rem;
-}
-
-.Strategy-body {
-  padding: 1.5rem;
-}
-
-.Strategy-row {
-  display: flex;
   align-items: center;
-}
-
-.icon {
-  background-color: #fff7cc;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  font-weight: bold;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 1rem;
 }
 
 .text-content {
-  width: 680px;
-  padding: 0 35px;
+  flex: 1;
+  max-width: 500px;
 }
 
-.Strategy-right {
-  width: 680px;
-}
-
-.text-content h2 {
+.subheading {
   text-transform: uppercase;
-  color: #aab0bc;
-  font-size: 0.8rem;
-  margin-bottom: 1rem;
-  letter-spacing: 0.02rem;
-}
-
-.text-content h3 {
-  font-size: 1.9rem;
+  color: #b0b3c3;
   font-weight: bold;
-  margin-bottom: 1.25rem;
+  margin-bottom: 10px;
 }
 
-.text-content p {
-  margin-bottom: 1rem;
+.sub-h1 {
+  font-size: 36px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.sub-h1 span {
+  color: #2b2e4a;
+  font-weight: bold;
+}
+
+.description {
+  color: #6c6f7d;
   line-height: 1.6;
+  margin-bottom: 16px;
 }
 
-.button {
+.btn {
   display: inline-block;
-  background-color: #fab758;
-  color: white;
-  padding: 0.6rem 1.5rem;
+  padding: 12px 25px;
+  background: #f9b94f;
+  color: #fff;
   text-decoration: none;
-  border-radius: 50rem;
-  font-size: 0.85rem;
-  transition: all 0.3s ease;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
-.button:hover {
-  transform: translateY(-0.15rem);
-  box-shadow: 0 0.25rem 0.75rem rgba(30, 34, 40, 0.15);
- 
+.steps {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+}
+
+.step-box {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 20px 30px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  gap: 20px;
+  width: 432px;
+}
+
+.step-number {
+  background: #ffe7c4;
+  color: #f4a54f;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+}
+
+.step-box h3 {
+  margin-bottom: 5px;
+  color: #2b2e4a;
+}
+
+.Strategy-right-text {
+  line-height: 10px;
+}
+
+.step-box p {
+  color: #6c6f7d;
+}
+
+.step-box p {
+  color: #6c6f7d;
+}
+
+.StepBox-1 {
+  margin-left: -80px;
+}
+
+.StepBox-2 {
+  margin-left: 10px;
+}
+
+.StepBox-3 {
+  margin-left: -40px;
 }
 
 /* choose section */
 
-.ChooseSectionmain{
+.ChooseSectionmain {
   display: flex;
   justify-content: center;
-  width: 1360px;
+  width: 1212px;
   margin: 50px auto;
   align-items: center;
 }
 
+.ChooseImagediv {
+  width: 58.30%;
+  padding: 0 35px;
+  margin: 50px 0 0;
+}
+
+.ChooseImagediv img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ChooseTextdiv {
+  width: 46%;
+}
+
+.ChooseTextdiv .sandbox_h3 {
+  font-size: 38px;
+  margin: 0 0 35px;
+}
+
+.Choose-Content-text .sandbox_h4:hover {
+  color: #FAB758;
+}
+
+
+.sandbox_h4 i {
+  color: #fab758
+}
+
+.Choose-text-paragraph {
+  margin-left: 20px;
+  margin-top: -10px;
+  color: #60697b;
+  display: none;
+}
+
 /* team section */
-.TeamHeading{
+.TeamHeading {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 145px;
 }
 
-.TeamHeading .sandbox_h3{
-  width: 630px;
-  font-size: 1.9rem
+.TeamHeading .sandbox_h3 {
+  width: 550px;
+  font-size: 1.9rem;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 45px;
+  /* margin: 20px 0; */
+}
+
+.TeamCard {
+  display: flex;
+  justify-content: space-around;
+  gap: 55px;
+  position: relative;
+}
+
+.TeamSubCard {
+  max-width: 300px;
+  max-height: 373px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px rgba(85, 84, 84, 0.24);
+  padding: 40px;
+  background-color: #FEFEFE;
+}
+
+.TeamSubCard img {
+  border-radius: 50%;
+}
+
+.TeamSubCard h4 {
+  margin: 10px 0;
+  color: #343f52;
+}
+
+.TeamSubCard h2 {
+  margin: 10px 0;
+  color: #60697b;
+}
+
+.TeamSubCard p {
+  margin: 10px 0;
+  color: #60697b;
+  margin-bottom: 15px;
+}
+
+.TeamIcon {
+  display: flex;
+}
+
+.TeamIcon :nth-child(1) {
+  color: #5daed5;
+  width: 20px;
+  height: 20px;
+}
+
+.TeamIcon :nth-child(2) {
+  color: #4470cf;
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+}
+
+.TeamIcon :nth-child(3) {
+  color: #e94d88;
+  width: 20px;
+  height: 20px;
+}
+
+.team-service_dot {
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  z-index: -1;
+  bottom: 15px;
+  right: -23px;
+  background-image: radial-gradient(#3f78e0 2px, #fff 2.5px);
+  background-size: .75rem .75rem;
+  opacity: 0.5;
+}
+
+.team-service_circle {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  position: absolute;
+  z-index: -1;
+  left: -40px;
+  opacity: 0.3;
+  background: repeating-linear-gradient(-55deg, rgba(255, 255, 255, 0) 0.8px, rgb(228, 79, 89) 1.6px, rgb(228, 79, 89) 3px, rgba(255, 255, 255, 0) 3.8px, rgba(255, 255, 255, 0) 10px);
 }

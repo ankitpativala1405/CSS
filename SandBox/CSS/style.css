@@ -159,6 +159,7 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transform: translateY(0px);
   transition: 0.3s;
+  border: none;
 }
 
 .cta-button:hover {
@@ -616,14 +617,12 @@ p {
   z-index: -1;
   left: -40px;
   opacity: 0.3;
-  background: repeating-linear-gradient(
-    -55deg,
-    rgba(255, 255, 255, 0) 0.8px,
-    rgb(228, 79, 89) 1.6px,
-    rgb(228, 79, 89) 3px,
-    rgba(255, 255, 255, 0) 3.8px,
-    rgba(255, 255, 255, 0) 10px
-  );
+  background: repeating-linear-gradient(-55deg,
+      rgba(255, 255, 255, 0) 0.8px,
+      rgb(228, 79, 89) 1.6px,
+      rgb(228, 79, 89) 3px,
+      rgba(255, 255, 255, 0) 3.8px,
+      rgba(255, 255, 255, 0) 10px);
 }
 
 /* Solutions section */
@@ -765,6 +764,7 @@ p {
   max-width: 205px;
   padding: 50px;
 }
+
 .testimonial-card-2 {
   max-height: 349px;
   max-width: 315px;
@@ -886,17 +886,16 @@ p {
   max-width: 33%;
   margin: 30px 0 0;
   padding: 0 15px;
-  align-items: center;
 }
 
 .pricing-card-heading {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  margin-left: 400px;
 }
 
-.pricing-card-heading p span{
-  color: #e2626b ;
+.pricing-card-heading p span {
+  color: #e2626b;
 }
 
 .pricing-card-main {
@@ -910,6 +909,8 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 30px;
+  margin-top: 30px;
 }
 
 .pricing-duration {
@@ -939,18 +940,157 @@ p {
   display: flex;
   align-items: center;
 }
+
 .pricing-switcher i {
   font-size: 20px;
   color: rgba(250, 183, 88, 0.7);
   margin-left: 5px;
 }
 
-.pricingcard1{
-  width: 354px;
-  height: 515px;
-  margin:0 56px;
-  padding: 60px 40px 70px;
-  background-color: #ffffff;
-  border: 1px solid gray;
-  border-radius: 10px;
+.card {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  padding: 40px;
+  width: 272px;
+  height: 390px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-top: -5px;
+  color: #343f52;
+}
+
+.card ul {
+  margin: 0;
+  padding: 0;
+
+}
+
+.card ul li {
+  list-style-type: none;
+  padding: 8px;
+}
+
+.card ul li i {
+  color: #fab758;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  height: 53px;
+  margin-bottom: 10px;
+  font-family: Manrope, "sans-serif";
+  font-weight: 500;
+  line-height: 28.9px;
+}
+
+.price .pricingvaluesign {
+  font-size: 20px;
+  color: #343f52;
+  margin-top: -20px;
+}
+
+.price .pricevalue {
+  font-size: 48px;
+  color: #343f52;
+}
+
+.price .price-duration {
+  font-size: 16px;
+  color: #60697b;
+  align-self: self-end
+}
+
+.subcard-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricingmain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* talk-section */
+
+.talk-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1360px;
+  height: 583px;
+}
+
+.talk-image{
+  max-width: 793px;
+  max-height: 533px;
+  margin: 50px 0 0;
+  padding: 0 35px;
+}
+
+.talk-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.talk-text{
+  max-width: 567px;
+  max-height: 392px;
+  margin: 50px 0 0;
+  padding: 0 35px;
+}
+
+.talk-text .sandbox_h2{
+  font-size: 16px;
+  margin: 0 0 15px;
+}
+
+.talk-text .sandbox_h3{
+  margin: 0;
+  line-height: 50px;
+}
+
+.talk-text .sandbox_p{
+  font-size: 19px;
+  color: rgb(96, 105, 123);
+  line-height: 25px;
+}
+
+.talk-text button{
+  height: 52px;
+  width: 109px;
+}
+
+/* partner section */
+
+.partner-main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.partner{
+  width: 218px;
+  height: 31px;
+  margin: 40px 0 0;
+  padding: 0 35px;
+}
+
+.partner img{
+  width: 100%;
+  height: 100%;
+}
+
+/* footer */
+footer{
+  background-color: #343F52;
 }

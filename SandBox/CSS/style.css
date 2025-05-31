@@ -175,14 +175,6 @@ body {
   cursor: pointer;
 }
 
-.mobile-btn {
-  display: none;
-  font-size: 26px;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
 /* service section */
 .sandbox_h2 {
   text-transform: uppercase;
@@ -314,7 +306,6 @@ p {
   flex-direction: row;
   align-items: center;
   margin: 50px 0;
-  /* background: linear-gradient(to top, #fffaf5, #ffffff); */
 }
 
 .text-section {
@@ -454,9 +445,6 @@ p {
   line-height: 10px;
 }
 
-.step-box p {
-  color: #6c6f7d;
-}
 
 .step-box p {
   color: #6c6f7d;

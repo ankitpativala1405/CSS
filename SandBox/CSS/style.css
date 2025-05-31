@@ -750,7 +750,6 @@ p {
 
 .testimonial-card {
   background: #fff;
-  /* padding: 24px 28px; */
   border-radius: 16px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
   font-size: 18px;
@@ -1018,9 +1017,10 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+
 /* talk-section */
 
-.talk-main{
+.talk-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1028,49 +1028,49 @@ p {
   height: 583px;
 }
 
-.talk-image{
+.talk-image {
   max-width: 793px;
   max-height: 533px;
   margin: 50px 0 0;
   padding: 0 35px;
 }
 
-.talk-image img{
+.talk-image img {
   width: 100%;
   height: 100%;
 }
 
-.talk-text{
+.talk-text {
   max-width: 567px;
   max-height: 392px;
   margin: 50px 0 0;
   padding: 0 35px;
 }
 
-.talk-text .sandbox_h2{
+.talk-text .sandbox_h2 {
   font-size: 16px;
   margin: 0 0 15px;
 }
 
-.talk-text .sandbox_h3{
+.talk-text .sandbox_h3 {
   margin: 0;
   line-height: 50px;
 }
 
-.talk-text .sandbox_p{
+.talk-text .sandbox_p {
   font-size: 19px;
   color: rgb(96, 105, 123);
   line-height: 25px;
 }
 
-.talk-text button{
+.talk-text button {
   height: 52px;
   width: 109px;
 }
 
 /* partner section */
 
-.partner-main{
+.partner-main {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -1078,19 +1078,201 @@ p {
   margin-top: 40px;
 }
 
-.partner{
+.partner {
   width: 218px;
   height: 31px;
   margin: 40px 0 0;
   padding: 0 35px;
 }
 
-.partner img{
+.partner img {
   width: 100%;
   height: 100%;
 }
 
 /* footer */
-footer{
+.footer-section {
   background-color: #343F52;
+  color: #ffffff;
+  padding: 60px 0;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 200px;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.footer-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #ffffff;
+  width: 1290px
+}
+
+.footer-head p {
+  font-size: 38px;
+  font-weight: 600;
+  max-width: 700px;
+}
+
+hr {
+  border-color: #cacaca;
+  margin: 40px 0;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #d1d5db;
+}
+
+.footer-logo,
+.footer-links,
+.footer-pages,
+.footer-newsletter {
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.footer-logo {
+  flex-direction: column;
+  width: 360px;
+}
+
+.footer-links {
+  flex-direction: column;
+  width: 300px;
+  margin-top: -7px;
+}
+
+.footer-logo-img {
+  width: 134px;
+  margin-bottom: 20px;
+}
+
+.footer-div1-p {
+  font-size: 18px;
+  margin: 0 0 20px;
+  color: #CACACA;
+  width: 246px;
+}
+
+.footer-social-icons a {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 12px;
+  transition: color 0.3s;
+}
+
+.footer-social-icons a:hover {
+  color: #fcb045;
+}
+
+.footer-links-heading,
+.footer-pages-heading,
+.footer-newsletter-heading {
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.footer-links-address,
+.footer-links-email,
+.footer-links-paragraph,
+.footer-newsletter-paragraph {
+  display: block;
+  font-size: 18px;
+  margin: 8px 0;
+  color: #d1d5db;
+}
+
+.footer-links-heading,
+.footer-pages-heading,
+.footer-newsletter-heading {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.footer-newsletter-paragraph{
+  margin-top: 20px;
+}
+
+.footer-links-address {
+  margin: 0 0 20px;
+  padding: 0 140px 0 0;
+  color: #CACACA;
+}
+
+.footer-links-email {
+  text-decoration: none;
+}
+
+.footer-pages {
+  margin-top: -7px;
+}
+
+.footer-pages ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-pages ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #CACACA;
+}
+
+.footer-pages ul li:hover {
+  color: #fab758;
+}
+
+.footer-newsletter {
+  margin-top: -5px;
+  width: 300px;
+
+}
+.footer-newsletter-form{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-newsletter-input {
+  padding: 10px;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  width: 192px;
+  background-color: #414b59;
+  color: #ffffff;
+  margin-top: 10px;
+  padding: 18px 20px;
+  border: 1px solid gray;
+}
+
+.footer-newsletter-input::placeholder {
+  font-size: 14px;
+  color: #cccccc; 
+}
+
+
+.footer-newsletter-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #fcb045;
+  color: #ffffff;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+  font-weight: bold;
+  width: 108px;
+  margin-top: 10px;
+  padding: 19px 20px;
+}
+
+.footer-newsletter-button:hover {
+  background-color: #f9a825;
 }

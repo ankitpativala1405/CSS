@@ -10,6 +10,7 @@ body {
 
 #maindiv {
   background: linear-gradient(to top, #fffaf5, #ffffff, #fffaf5);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 96.69%);
 }
 
 .container {
@@ -306,13 +307,20 @@ p {
   flex-direction: row;
   align-items: center;
   margin: 50px 0;
+  height: 900px;
+  /* background-color: #000000 */
 }
 
 .text-section {
   width: 567px;
   padding: 0 35px;
-
   flex-wrap: nowrap;
+  height: 580px;
+}
+
+.image-section {
+  height: 580px;
+
 }
 
 .text-section h3 {
@@ -357,6 +365,7 @@ p {
   padding: 100px 0px;
   gap: 50px;
   flex-wrap: wrap;
+  margin-top: -100px;
 }
 
 .strategy-sec {
@@ -508,6 +517,16 @@ p {
 }
 
 /* team section */
+
+.container2 {
+  height: 900px;
+  width: 100%;
+  position: absolute;
+  z-index: -5;
+  background: linear-gradient( rgb(255, 248, 238),rgba(255, 255, 255, 0) 100%);
+ clip-path: polygon(0% 48%, 100% 35.75%, 100% 71%, 0% 71.5%);
+}
+
 .TeamHeading {
   display: flex;
   flex-direction: column;
@@ -716,6 +735,8 @@ p {
   background: linear-gradient(to bottom, #fff, #fef8f4);
   padding: 80px 20px;
   margin-top: 100px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 0% 100%);
+  height: 775px;
 }
 
 .community-main {
@@ -865,7 +886,7 @@ p {
 .pricing-main {
   display: flex;
   justify-content: space-between;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   align-items: center;
 }
 
@@ -1080,15 +1101,18 @@ p {
 
 /* footer */
 .footer-section {
-  background-color: #343F52;
   color: #ffffff;
   padding: 60px 0;
   font-family: 'Poppins', sans-serif;
-  margin-top: 200px;
+  margin-top: 150px;
+  background-color: #343F52;
+  width: 100%;
+  height: 590px;
+  clip-path: polygon(0% 0%, 35.22% 2.97%, 63.87% 5.38%, 100% 8.43%, 100% 100%, 0% 100%);
 }
 
 .container {
-  width: 85%;
+  width: 70%;
   margin: auto;
 }
 
@@ -1186,7 +1210,7 @@ hr {
   color: #ffffff;
 }
 
-.footer-newsletter-paragraph{
+.footer-newsletter-paragraph {
   margin-top: 20px;
 }
 
@@ -1224,7 +1248,8 @@ hr {
   width: 300px;
 
 }
-.footer-newsletter-form{
+
+.footer-newsletter-form {
   display: flex;
   align-items: center;
   margin-top: 20px;
@@ -1244,7 +1269,7 @@ hr {
 
 .footer-newsletter-input::placeholder {
   font-size: 14px;
-  color: #cccccc; 
+  color: #cccccc;
 }
 
 

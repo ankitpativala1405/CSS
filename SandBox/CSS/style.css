@@ -256,21 +256,25 @@ p {
 .learn1 {
   color: #fab758;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .learn2 {
   color: #e2626b;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .learn3 {
   color: #45c4a0;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .learn4 {
   color: #3f78e0;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .service_card_text a i {
@@ -308,7 +312,6 @@ p {
   align-items: center;
   margin: 50px 0;
   height: 900px;
-  /* background-color: #000000 */
 }
 
 .text-section {

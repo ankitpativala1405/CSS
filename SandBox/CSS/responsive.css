@@ -43,9 +43,53 @@ xl  >=1199px
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
+  .headerimage-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .headerimage-right {
+    text-align: center;
+  }
+
+  .service_card_main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .image-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 70%;
+  }
+
 }
 
-@media (max-width:768px) {}
+@media (max-width:768px) {
+  .service_card_main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+  }
+    .service_dot {
+    z-index: 1;
+    top: -28px;
+    left: 28px;
+  }
+
+  .service_circle {
+    z-index: 1;
+    right: 15px;
+    bottom: -10px;
+  }
+
+  .service_card{
+    width: 70%;
+  }
+}
 
 @media (max-width:576px) {}
 

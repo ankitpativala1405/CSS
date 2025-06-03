@@ -322,7 +322,6 @@ p {
 }
 
 .image-section {
-  /* height: 580px; */
   width: 54%;
 
 }
@@ -337,29 +336,37 @@ p {
 }
 
 .image-section img {
-  /* width: 723px; */
   width:100%;
 }
 
+.input-group{
+  width: 79%;
+  height: 13%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-height: 52px;
+  margin-top: 50px;
+}
+
 .input-group input[type="url"] {
-  width: 193px;
-  height: 24px;
-  padding: 12px 45px 12px 20px;
+  width: 56%;
+  height: 94%;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  border: 1px solid gray;
+  border: 1px solid rgba(128, 128, 128, 0.144);
+  text-align: left;
+  padding-left: 5%;
 }
 
 .input-group button {
-  padding: 10px 24px;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
-  margin-left: -5px;
   background-color: #fab758;
   color: white;
   font-size: 0.85rem;
-  height: 49px;
-  width: 102px;
+  width: 23%;
+  height: 100%;
   border: none;
   font-weight: 800;
 }
@@ -381,7 +388,8 @@ p {
 
 .text-content {
   flex: 1;
-  max-width: 500px;
+  max-width: 660px;
+  padding: 20px;
 }
 
 .subheading {
@@ -392,7 +400,7 @@ p {
 }
 
 .sub-h1 {
-  font-size: 36px;
+  font-size: 37px;
   line-height: 1.3;
   margin-bottom: 20px;
 }
@@ -405,7 +413,8 @@ p {
 .description {
   color: #6c6f7d;
   line-height: 1.6;
-  margin-bottom: 16px;
+  margin: 25px 0;
+  font-size: 18px;
 }
 
 .btn {
@@ -481,7 +490,6 @@ p {
 .ChooseSectionmain {
   display: flex;
   justify-content: center;
-  width: 1212px;
   margin: 50px auto;
   align-items: center;
 }
@@ -499,6 +507,7 @@ p {
 
 .ChooseTextdiv {
   width: 46%;
+  margin-left: 20px;
 }
 
 .ChooseTextdiv .sandbox_h3 {
@@ -640,7 +649,8 @@ p {
 /* Solutions section */
 
 .Solution-main {
-  width: 1360px;
+  /* width: 1360px; */
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;

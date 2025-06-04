@@ -1203,8 +1203,14 @@ hr {
   transition: color 0.3s;
 }
 
-.footer-social-icons a:hover {
+.footer-social-icons a i {
+  transition: color 0.3s, transform 0.5s;
+}
+
+.footer-social-icons a:hover i {
   color: #fcb045;
+  transform: translateY(-5px);
+  transition: 0.5s;
 }
 
 .footer-links-heading,
@@ -1269,7 +1275,7 @@ hr {
 
 .footer-newsletter {
   margin-top: -5px;
-width: 22.50%;
+  width: 22.50%;
 }
 
 .footer-newsletter-form {

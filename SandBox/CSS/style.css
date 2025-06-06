@@ -241,7 +241,7 @@ body {
 }
 
 .service_card_text h4,
-p {
+.service_card_main p {
   margin: 20px 0px;
 }
 
@@ -760,13 +760,11 @@ p {
   gap: 60px;
   align-items: flex-start;
   justify-content: space-between;
-  /* width: 1360px; */
 }
 
  .testimonial-grid {
   display: flex;
   flex-direction: column;
-  /* width: 750px; */
   gap: 25px;
 } 
 
@@ -790,20 +788,30 @@ p {
   color: #60697b;
   line-height: 1.6;
   position: relative;
-  padding: 50px;
+  padding: 40px;
 }
 
 .testimonial-card-extra{
-  padding: 20px;
+  padding: 30px;
   visibility: hidden;
 }
 
+.testimonial-card-2{
+    padding: 60px;
+}
+
 .testimonial-card-3{
-  /* width: 36%; */
+  width: 40%;
 }
 
 .testimonial-card-4{
   margin: 0;
+}
+
+.testimonial-extra{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* .testimonial-card-1 {
@@ -847,7 +855,7 @@ p {
   margin-top: -3px;
 } */
 
-/* .testimonial-card::before {
+.testimonial-card::before {
   content: "❞";
   position: absolute;
   top: -30px;
@@ -855,13 +863,13 @@ p {
   font-size: 150px;
   color: #e2e8f0;
   z-index: 0;
-} */
+}
 
-/* .testimonial-card p {
+.testimonial-card p {
   position: relative;
   z-index: 1;
-  margin-bottom: 20px;
-} */
+  /* margin-bottom: 20px; */
+}
 
 /* .testimonial-card h5 {
   font-weight: 700;

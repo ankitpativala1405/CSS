@@ -10,11 +10,9 @@ xl  >=1199px
 2xl >=1499px
 */
 
-@media (max-width: 1499px) {
-}
+@media (max-width: 1499px) {}
 
-@media (max-width: 1199px) {
-}
+@media (max-width: 1199px) {}
 
 @media (max-width: 991px) {
   #maindiv {
@@ -228,14 +226,31 @@ xl  >=1199px
   }
 
   .testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     width: 100%;
     margin: 0;
   }
 
-  .testimonial-card {
-    height: 57%;
-    width: 72%;
+  .testimonial-card-extra {
+    display: none;
   }
+
+
+  .testimonial-card-3 {
+    max-width: none;
+    width: fit-content;
+    padding: 40px;
+  }
+
+  .testimonial-extra{
+    display: flex;
+    /* align-items: end; */
+    justify-content: end;
+  }
+  /* .testimonial-card-1 {
+    margin-top: 35px;
+  } */
 
   /* pricing section  */
 
@@ -377,7 +392,7 @@ xl  >=1199px
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #maindiv {
     background: linear-gradient(to top, #fffaf5, #ffffff, #fffaf5);
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 96.69%);
@@ -427,23 +442,48 @@ xl  >=1199px
     right: 50px;
   }
 
-  /* pricing section */
+  /* community section */
 
-  .pricingcard{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
+  /* .community-main{
+    margin-top: -50px;
+  } */
+
+  .community-section{
+    margin-top: 0;
   }
 
-  .pricing-card-heading{
+  .testimonial-grid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonial-sub-grid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonial-mini-sub-grid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* pricing section */
+
+  .pricingcard {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .pricing-card-heading {
     margin-left: -240px;
   }
 
   /* partner section */
 
-  .partner-main{
+  .partner-main {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-bottom: -100px;
   }
 
@@ -468,8 +508,6 @@ xl  >=1199px
   }
 }
 
-@media (max-width: 576px) {
-}
+@media (max-width: 576px) {}
 
-@media (max-width: 480px) {
-}
+@media (max-width: 480px) {}

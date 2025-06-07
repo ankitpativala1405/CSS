@@ -734,8 +734,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width: 100%; */
-  /* width: 1360px; */
   margin-top: 100px;
 }
 
@@ -752,7 +750,7 @@ body {
   padding: 80px 20px;
   margin-top: 100px;
   clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 0% 100%);
-  height: 775px;
+  /* height: 775px; */
 }
 
 .community-main {
@@ -777,7 +775,7 @@ body {
 .testimonial-mini-sub-grid{
   display: flex;
   gap: 25px;
-  width: 725px;
+  width: 100%;
 }
 
 .testimonial-card {
@@ -792,19 +790,25 @@ body {
 }
 
 .testimonial-card-extra{
-  padding: 30px;
+  padding: 20px;
   visibility: hidden;
 }
 
-.testimonial-card-2{
-    padding: 60px;
+.testimonial-card-1{
+  height: auto;
+  width: fit-content;
+}
+
+.testimonial-card-2,.testimonial-card-3{
+  width: fit-content;
 }
 
 .testimonial-card-3{
-  width: 40%;
+  padding: 50px;
 }
 
 .testimonial-card-4{
+  width: fit-content;
   margin: 0;
 }
 
@@ -814,46 +818,6 @@ body {
   justify-content: space-between;
 }
 
-/* .testimonial-card-1 {
-  max-height: 205px;
-  max-width: 205px;
-  padding: 50px;
-} */
-
-/* .testimonial-card-2 {
-  max-height: 349px;
-  max-width: 315px;
-  padding: 50px;
-  margin-top: -80px;
-  margin-left: -45px;
-} */
-
-/* .testimonial-card-3 {
-  max-height: 260px;
-  max-width: 286px;
-  padding: 50px;
-  margin-left: 50px;
-} */
-
-/* .testimonial-card-4 {
-  max-height: 200px;
-  max-width: 349px;
-  padding: 50px;
-  margin-right: -50px;
-} */
-
-/* .testimonial-card-4 p {
-  margin-top: -3px;
-} */
-
-/* .testimonial-card-1 p {
-  width: 176px;
-  margin-top: -3px;
-} */
-
-/* .testimonial-card-3 p {
-  margin-top: -3px;
-} */
 
 .testimonial-card::before {
   content: "❞";
@@ -868,21 +832,9 @@ body {
 .testimonial-card p {
   position: relative;
   z-index: 1;
-  /* margin-bottom: 20px; */
 }
 
-/* .testimonial-card h5 {
-  font-weight: 700;
-  margin: 0;
-  color: #343f52;
-  font-size: 25px;
-} */
 
-/* .testimonial-card .position {
-  font-size: 1.1rem;
-  color: #64748b;
-  margin-top: 4px;
-}  */
 
 /* Text section */
 .testimonial-text {
